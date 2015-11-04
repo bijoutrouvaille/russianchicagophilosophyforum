@@ -7,7 +7,7 @@ author: "alexeyburov"
 <div class="text">
 <div class="content">
 
-<a href="https://russianchicagophilosophyforum.files.wordpress.com/2015/07/screen-shot-2015-07-22-at-21-19-48.png"><img class="alignnone  wp-image-122" src="https://russianchicagophilosophyforum.files.wordpress.com/2015/07/screen-shot-2015-07-22-at-21-19-48.png?w=300" alt="Screen Shot 2015-07-22 at 21.19.48" width="477" height="434" /></a>
+<a href="https://russianchicagophilosophyforum.files.wordpress.com/2015/07/screen-shot-2015-07-22-at-21-19-48.png"><img class="alignnone  wp-image-122" src="https://russianchicagophilosophyforum.files.wordpress.com/2015/07/screen-shot-2015-07-22-at-21-19-48.png?w=500" class='center' alt="Screen Shot 2015-07-22 at 21.19.48" width="477" height="434" /></a>
 
 Интервью брала милая девушка, Алиса Сандермайер, только что защитившаяся по научной журналистике в Университете Стони Брук, и проходящая интернатуру в Фермилабе. Перевод философской части интервью приведен ниже.
 
