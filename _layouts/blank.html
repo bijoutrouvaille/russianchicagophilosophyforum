@@ -15,7 +15,13 @@
     <link href='https://fonts.googleapis.com/css?family=Poiret+One|Noto+Sans:400,400italic,700,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link href='//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
     {% feed_meta %}
-    {% if site.comments.disqus and page.comments %}<script src="//{{ site.comments.disqus }}.disqus.com/embed.js" async></script>{% endif %}
+    {% if site.comments.disqus and page.comments %}
+    <script>window.disqus_config = function() {
+      // this.page.url='{{ page.url | prepend: site.baseurl | site.url }}'; 
+      // this.page.identifier='{{ page.url }}' }
+    </script>
+    <script src="//{{ site.comments.disqus }}.disqus.com/embed.js" async></script>
+    {% endif %}
     {% if site.comments.isso and page.comments %}<script data-isso="http://{{ site.comments.isso }}" src="//{{ site.comments.isso }}/js/embed.min.js"></script>{% endif %}
   </head>
   <body>
