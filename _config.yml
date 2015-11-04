@@ -8,6 +8,28 @@ baseurl: "/russianchicagophilosophyforum"
 
 # baseurl: "/contrast" # comment out if in root directory
 
+prose:
+  rooturl: _posts
+  metadata:
+    _posts:
+      - name: date
+        field:
+          element: hidden
+          value: CURRENT_DATETIME
+      - name: author
+        field:
+          element: text
+          placeholder: "Ваше Имя"
+      - name: categories
+        field:
+          element: select
+          value: пост
+          options:
+            - name: 'пост'
+              value: 'пост'
+            - name: 'объявление'
+              value: 'объявление' 
+
 comments:
   disqus: "russianchicagophilosophyforum"
 #  isso: "comments.mysite.org"
