@@ -71,6 +71,6 @@ defaults:
       path: ""
       type: posts
     values: 
-      permalink: /:year/:month/:day/:title/
+      permalink: :year/:month/:day/:title
       comments: true
 gems: [jekyll-feed] # include feed plugin (supported by gh-pages)
