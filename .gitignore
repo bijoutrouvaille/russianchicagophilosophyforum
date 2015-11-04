@@ -1,0 +1,8 @@
+.DS_Store
+_site/
+*.swp
+*.swo
+.sass-cache/
+tmp/
+node_modules/
+package.json

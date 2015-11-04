@@ -13,54 +13,87 @@ $description: {% if site.style.description %}{{ site.style.description }}{% else
 $odd: {% if site.style.article.odd %}{{ site.style.article.odd }}{% else %}white{% endif %}
 $even: {% if site.style.article.even %}{{ site.style.article.even }}{% else %}#222{% endif %}
 
+$hFont: 'Poiret One', cursive
+$logoWidth: 30%
 body
-    +body_background($body, $padding)
-    > header, > footer
-        background: $nav
-        color: reduce($nav, 100%)
-    > div
-        background: $description
-        color: reduce($description, 100%)
+  +body_background($body, $padding)
+  > header, > footer
+    background: $nav
+    color: reduce($nav, 100%)
+  > div
+    background: $description
+    color: reduce($description, 100%)
+  > header
+    background: white
+    color: black
+    margin: 0 auto
+    text-align: center
+    nav li
+      margin: 0 1em
+    nav ul
+      $border: 1px solid #F1F1F1
+      border-bottom: $border
+      border-top: $border
+      background: #FBFBFB
+    > h1 a
+      font-size: 1.2em
+    > .logo
+      width: 140px
+      margin: 1em 2em 0 2em
+      display: block
+      // width: $logoWidth
+      margin: 0 auto
 
 {% if site.style.serif-heading %}
 
 body > header h1
-    font-weight: bold
+  font-weight: bold
 
 h1, h2, h3, h4, h5, h6 
-    font-family: "Gentium Basic", serif
-    letter-spacing: 2px
-    header &
-        text-transform: uppercase
+  font-family: $hFont
+  // font-family: "Gentium Basic", serif
+  letter-spacing: 2px
+  header &
+    text-transform: uppercase
 
 {% endif %}
 
 {% if site.style.headline %}
 
 body > div:first-of-type
-    background: $headline
-    color: reduce($headline, 100%)
-    h1
-        padding-top: 1em
-        padding-bottom: 1em
+  background: $headline
+  color: reduce($headline, 100%)
+  h1
+    padding-top: 1em
+    padding-bottom: 1em
 
 nav ul
-    margin: 0
+  margin: 0
 
 {% endif %}
 
-article:nth-of-type(even)
-    +article_background($even, $anchor)
+article
+  +article_background($odd, $anchor)
+  img.center
+    display: block
+    margin-left: auto
+    margin-right: auto
+#paginate
+  background: $odd
+  color: reduce($odd, 100%)
 
-article:nth-of-type(odd)
-    +article_background($odd, $anchor)
-
-#paginate:nth-child(even)
-    background: $even
-    color: reduce($even, 100%)
-
-#paginate:nth-child(odd)
-    background: $odd
-    color: reduce($odd, 100%)
+// article:nth-of-type(even)
+//   +article_background($even, $anchor)
+//
+// article:nth-of-type(odd)
+//   +article_background($odd, $anchor)
+//
+// #paginate:nth-child(even)
+//   background: $even
+//   color: reduce($even, 100%)
+//
+// #paginate:nth-child(odd)
+//   background: $odd
+//   color: reduce($odd, 100%)
 
 @import vendor

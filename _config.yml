@@ -1,34 +1,41 @@
-title: "blog title"
-author: "Blog Author"
-description: "Really cool blog about ... something"
+title: "Чикагский Философский Форум"
+author: "Чикагский Философский Форум"
+description: "Клуб Чикагских Любомудров"
 #subheading: "Really cool blog about ... something"
-more: "read more"
-url: "http://niklabs.me"
-baseurl: "/contrast" # comment out if in root directory
+more: "читать далее"
+baseurl: "/russianchicagophilosophyforum"
+# url: "http://niklabs.me"
+
+# baseurl: "/contrast" # comment out if in root directory
 
 comments:
-    disqus: "niklasbuschmann"
-#    isso: "comments.mysite.org"
+  disqus: "russianchicagophilosophyforum"
+#  isso: "comments.mysite.org"
+
+exclude:
+  - node_modules/
+  - tmp/
+
 
 style:
-#    body: "whitesmoke"
-    padding: 33%
-    anchor: "#46f"
-    serif-heading: true
-    nav: "#181818"
-#    headline: "#06f"
-    description: "white"
-    article:
-        odd: "#ffffff"
-        even: "#222222"
+  # body: "whitesmoke"
+  padding: 33%
+  anchor: "#46f"
+  serif-heading: true
+  nav: "#181818"
+#  headline: "#06f"
+  description: "white"
+  article:
+    odd: "#ffffff"
+    even: "#222222"
 
 links:
-  - github: "https://github.com/me/"
-  - twitter: "https://twitter.com/me/"
-  - google-plus: "https://plus.google.com/+me"
-  - reddit: "https://www.reddit.com/user/me/"
-  - youtube: "https://www.youtube.com/user/me"
-  - steam: "http://steamcommunity.com/id/me/"
+  - youtube: "https://www.youtube.com/channel/UCee5CL9-ksaF3tHnqCuNa_Q"
+  # - github: "https://github.com/me/"
+  # - twitter: "https://twitter.com/me/"
+  # - google-plus: "https://plus.google.com/+me"
+  # - reddit: "https://www.reddit.com/user/me/"
+  # - steam: "http://steamcommunity.com/id/me/"
 
 paginate: 10
 excerpt_separator: "\n\n\n" # excerpt ends after two blank lines
