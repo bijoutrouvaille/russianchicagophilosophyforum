@@ -26,8 +26,8 @@ prose:
           element: select
           value: пост
           options:
-            - name: 'пост'
-              value: 'пост'
+            - name: 'идеи'
+              value: 'идеи'
             - name: 'объявление'
               value: 'объявление' 
 
@@ -61,5 +61,16 @@ links:
 
 paginate: 10
 excerpt_separator: "\n\n\n" # excerpt ends after two blank lines
-defaults: [{scope: {path: ""}, values: {layout: "default"}}, {scope: {path: "", type: "posts"}, values: {comments: true}}]
+# defaults: [{scope: {path: ""}, values: {layout: "default"}}, {scope: {path: "", type: "posts"}, values: {comments: true}}]
+defaults:
+  - scope: 
+      path: ""
+    values: 
+      layout: default
+  - scope: 
+      path: ""
+      type: posts
+    values: 
+      permalink: "/:year/:month/:day/:title.html"
+      comments: true
 gems: [jekyll-feed] # include feed plugin (supported by gh-pages)

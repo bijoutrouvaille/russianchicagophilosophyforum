@@ -1,12 +1,14 @@
 ---
 title:  "Интервью Fermilab Today"
 date:   Wed Jul 22 2015 21:21:01 GMT-0500 (CDT)
-categories: пост
+categories: информация
 author: "alexeyburov"
 ---
 
-<a href="https://russianchicagophilosophyforum.files.wordpress.com/2015/07/screen-shot-2015-07-22-at-21-19-48.png"><img class="center alignnone  wp-image-122" src="https://russianchicagophilosophyforum.files.wordpress.com/2015/07/screen-shot-2015-07-22-at-21-19-48.png?w=600" alt="Screen Shot 2015-07-22 at 21.19.48" width="477" height="434" /></a>
+<div class="text">
+<div class="content">
 
+<a href="https://russianchicagophilosophyforum.files.wordpress.com/2015/07/screen-shot-2015-07-22-at-21-19-48.png"><img class="alignnone  wp-image-122" src="https://russianchicagophilosophyforum.files.wordpress.com/2015/07/screen-shot-2015-07-22-at-21-19-48.png?w=300" alt="Screen Shot 2015-07-22 at 21.19.48" width="477" height="434" /></a>
 
 Интервью брала милая девушка, Алиса Сандермайер, только что защитившаяся по научной журналистике в Университете Стони Брук, и проходящая интернатуру в Фермилабе. Перевод философской части интервью приведен ниже.
 
@@ -30,3 +32,5 @@ author: "alexeyburov"
 
 АБ: Не могу назвать какой-то один. У философии не то что нет единого набора аксиом, у нее их вообще быть не может. Попытка установить какие угодно аксиомы немедленно повлечет вопрос: почему именно такие аксиомы, а не другие? Тот философский вопрос, что я рассматриваю в текущий момент, обычно представляется мне важнейшим.
 
+</div>
+</div>
