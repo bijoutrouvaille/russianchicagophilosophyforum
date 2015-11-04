@@ -62,6 +62,7 @@ links:
 paginate: 10
 excerpt_separator: "\n\n\n" # excerpt ends after two blank lines
 # defaults: [{scope: {path: ""}, values: {layout: "default"}}, {scope: {path: "", type: "posts"}, values: {comments: true}}]
+permalink: pretty
 defaults:
   - scope: 
       path: ""
@@ -71,6 +72,6 @@ defaults:
       path: ""
       type: posts
     values: 
-      permalink: :year/:month/:day/:title
       comments: true
+      # permalink: :year/:month/:day/:title
 gems: [jekyll-feed] # include feed plugin (supported by gh-pages)
