@@ -1,9 +1,11 @@
 ---
 published: false
 title: Testing Prose.io
-author: bt
-date: 2015-11-04T00:00:00.000Z
+author: Lev Burov
+date: "Sat Nov 5 2015 08:39:00 GMT-0500 (CDT)"
+categories: пост
 ---
+
 
 
 ## Hello
