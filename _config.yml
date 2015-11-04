@@ -21,15 +21,15 @@ prose:
         field:
           element: text
           placeholder: "Ваше Имя"
-      - name: categories
-        field:
-          element: select
-          value: пост
-          options:
-            - name: 'идеи'
-              value: 'идеи'
-            - name: 'объявление'
-              value: 'объявление' 
+      # - name: categories
+      #   field:
+      #     element: select
+      #     value: пост
+      #     options:
+      #       - name: 'идеи'
+      #         value: 'идеи'
+      #       - name: 'объявление'
+      #         value: 'объявление' 
 
 comments:
   disqus: "russianchicagophilosophy"
