@@ -1,12 +1,8 @@
 title: "Чикагский Философский Форум"
 author: "Чикагский Философский Форум"
 description: "Клуб Чикагских Любомудров"
-#subheading: "Really cool blog about ... something"
 more: "читать далее"
 baseurl: "/russianchicagophilosophyforum"
-# url: "http://niklabs.me"
-
-# baseurl: "/contrast" # comment out if in root directory
 
 prose:
   rooturl: _posts
@@ -37,7 +33,6 @@ prose:
 
 comments:
   disqus: "russianchicagophilosophyforum"
-#  isso: "comments.mysite.org"
 
 exclude:
   - node_modules/
