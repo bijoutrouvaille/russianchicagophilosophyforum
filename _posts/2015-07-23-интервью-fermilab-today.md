@@ -1,6 +1,6 @@
 ---
 title:  "Интервью Fermilab Today"
-date:   Wed Jul 22 2015 21:21:01 GMT-0500 (CDT)
+date:   2015-07-23
 author: "alexeyburov"
 ---
 
