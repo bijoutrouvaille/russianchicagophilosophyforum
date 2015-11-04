@@ -10,6 +10,7 @@ baseurl: "/russianchicagophilosophyforum"
 
 prose:
   rooturl: _posts
+  media: assets
   metadata:
     _posts:
       - name: title
