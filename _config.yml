@@ -32,7 +32,7 @@ prose:
               value: 'объявление' 
 
 comments:
-  disqus: "russianchicagophilosophyforum"
+  disqus: "russianchicagophilosophy"
 
 exclude:
   - node_modules/
