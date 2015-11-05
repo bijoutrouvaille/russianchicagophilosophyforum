@@ -1,9 +1,10 @@
 ---
 date: "2015-11-04 14:30 -0600"
 author: Bon Fin
-published: false
+published: true
 title: testing prose 3
 ---
+
 
 
 ## A New Post
