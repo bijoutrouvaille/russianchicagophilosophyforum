@@ -44,6 +44,12 @@
       <span><a href="{{ site.url }}">{% if page.author %}{{ page.author }}{% else %}{{site.author}}{% endif %}</a></span>
       <span>{% for link_hash in site.links %}{% for link in link_hash %}<a href="{{ link[1] }}"><i class="fa fa-{{ link[0] }}-square"></i></a>{% endfor %}{% endfor %}</span>
       <span>&copy; {{ site.time | date: "%Y" }}</span>
+      <form method='post' action='http://blogtrottr.com'>
+        <input type='text' name='btr_email' placeholder='e-mail' />
+        <input type='hidden' name='btr_url' value='http://theorein.github.io/{{ site.baseurl }}/feed.xml' />
+        <input type='hidden' name='schedule_type' value='0' />
+        <input type='submit' value='Подписаться'  />
+      </form>
     </footer>
   </body>
 </html>
