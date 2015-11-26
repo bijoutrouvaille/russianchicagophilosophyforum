@@ -1,4 +1,5 @@
-$linkColor: #2E9FFF
+// $linkColor: #2E9FFF
+$linkColor: #479EEB
 $linkSelectedColor: #a5b2b9
 
 body
@@ -47,7 +48,7 @@ pre
   font-size: .8em
 
 blockquote
-  border-left: 5px solid #46e
+  border-left: 5px solid $linkColor
   margin: 0
   padding-left: 1.5em
 
@@ -64,7 +65,7 @@ article
   p
     font-size: .9rem
 
-  p a
+  p a, li a
     color: $linkColor
 
   h2
