@@ -1,3 +1,6 @@
+$linkColor: #2E9FFF
+$linkSelectedColor: #a5b2b9
+
 body
   display: flex
   min-height: 100%
@@ -22,7 +25,7 @@ a
   &:hover
     color: gray
   &#selected
-    color: #46e
+    color: $linkSelectedColor
 
 strong, b, th
   font-weight: 400
@@ -60,6 +63,9 @@ article
   overflow-x: auto
   p
     font-size: .9rem
+
+  p a
+    color: $linkColor
 
   h2
     font-weight: bold
